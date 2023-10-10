@@ -13,7 +13,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/The_Silent_Teams>𒆜The Silent Teams</a></b>
 
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/+FdummGOQm3NlMDBl>Silent Teams Bot's ⚡</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/+x-eTArM0uu5mZDJl>Silent Teams Marathi Bot ⚡</a></b>
 
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.69 [Sᴛᴀʙʟᴇ]</b>"""
 
@@ -110,7 +110,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
 
-<b><a href=https://t.me/+FdummGOQm3NlMDBl>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ The Silent Teams</a></b>"""
+<b><a href=https://t.me/THE_DS_OFFICIAL>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ ꜱᴀɴᴄʜɪᴛ ♛⛧ </a></b>"""
 
     ADMIN_STATUS_TXT = """<b>⍟────[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]────⍟</b>
 
@@ -188,7 +188,7 @@ Rᴇᴀsᴏɴs
 𝟸) Tʏᴘᴇ Nᴀᴍᴇ Wɪᴛʜ Yᴇᴀʀ
 
 𝟹) Mᴏᴠɪᴇ Is Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ Dᴀᴛᴀʙᴀsᴇ 
-Rᴇᴘᴏʀᴛ Hᴇʀᴇ @Connect_With_Robot</b>
+Rᴇᴘᴏʀᴛ Hᴇʀᴇ @The_DS_Official_Bot</b>
 """
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...
@@ -197,9 +197,9 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @Connect_With_Robot</b>
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : The Silent Teams
-• ᴜꜱᴇʀɴᴀᴍᴇ : @The_Silent_Teams
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='@Connect_With_Robot'>Support Team</a></b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ꜱᴀɴᴄʜɪᴛ ♛⛧
+• ᴜꜱᴇʀɴᴀᴍᴇ : @THE_DS_OFFICIAL
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='@The_DS_Official_Bot'>Support</a></b>
 """
 
     KD_IMDB = """
