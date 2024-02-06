@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭 ', url='https://t.me/+Da8va-AoDRA4Y2E1'),
-                    InlineKeyboardButton('☘️ Sᴜᴘᴘᴏʀᴛ ☘️', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭 ', url='https://t.me/+xJIpAIzmQ7Q3YTZl'),
+                    InlineKeyboardButton('☘️ Sᴜᴘᴘᴏʀᴛ ☘️', url='https://t.me/+x-eTArM0uu5mZDJl')
                   ],[
                     InlineKeyboardButton('☀️ ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ ☀️', url='https://t.me/The_Silent_Teams'),
                   ],[
@@ -97,7 +97,7 @@ async def start(client, message):
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
                     InlineKeyboardButton('🍁 Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', callback_data="https://t.me/+FdummGOQm3NlMDBl")
+                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', callback_data="https://t.me/+xJIpAIzmQ7Q3YTZl")
                   ],[
                     InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('🕵️ Aʙᴏᴜᴛ', callback_data='about'),
