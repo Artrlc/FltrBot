@@ -34,9 +34,11 @@ logger.setLevel(logging.ERROR)
 
 BUTTONS = {}
 SPELL_CHECK = {}
+DS_REACT = ["🔥", "❤️", "😍", "⚡", "🫠", "🤫", "😎"]
 
 @Client.on_message(filters.private & filters.text & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
 async def pv_filter(client, message):
+    await message.react(emoji=random.choice(DS_REACT))
     kd = await global_filters(client, message)
     if kd == False:
         await auto_filter(client, message)
@@ -1050,13 +1052,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
         message = msg     
-        stickers = [
-            "CAACAgUAAxkBAAEJ1mhkw4gDwcOrSAABnfijct8IgD25qaAAAtQKAAJC0SFWJ4wUbu9Cy3YvBA","CAACAgUAAxkBAAEJ1mpkw4gFht5MyXokAkFqjGujz8NaMQACtAgAAj-rIFZSp1-nSzk6ky8E","CAACAgUAAxkBAAEJ1mxkw4gH6agwoCBTWNaOiWCjTHjcTQACPAwAAqPCIVYnRBWQv4CdvC8E","CAACAgUAAxkBAAEJ1m5kw4gJP06F9jyoW3Lak42o_QcS2QACkwoAAnWKIFbAUs8ZpL5iJS8E","CAACAgUAAxkBAAEJ1nBkw4gMPZtI8fyRS_ECCSUYVscuEgAC8woAAj8QIVY7SULNkzjMtS8E","CAACAgUAAxkBAAEJ1nJkw4gOmXJZgI6f_sxBMQxCxQnpogAC3goAAg3XIFbFte7uUuTGMy8E","CAACAgUAAxkBAAEJ1nRkw4gQSiQuT_M_u8MaL4GP6AF2agAC5gkAArI0IVZscKbrDQ5bzi8E","CAACAgUAAxkBAAEJ1nZkw4gSZG-2bzJ12urS4IOH-HVteQACuAkAAtCIIFbZXwd7CsK9fi8E"]
-        stick_id = random.choice(stickers)
-        keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔍Searching🔍", callback_data="hid")]]
-                                      )
-        stick = await message.reply_sticker(sticker=stick_id,reply_markup=keyboard)
         settings = await get_settings(message.chat.id)
         if message.text.startswith("/"): return  # ignore commands
         if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
@@ -1066,15 +1061,11 @@ async def auto_filter(client, msg, spoll=False):
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
                 if settings["spell_check"]:
-                    await stick.delete()
                     return await advantage_spell_chok(msg)
                 else:
-                    await stick.delete()
                     return
         else:
-            await stick.delete()
             return
-        await stick.delete()
     else:
         settings = await get_settings(msg.message.chat.id)
         message = msg.message.reply_to_message  # msg will be callback query
