@@ -47,6 +47,7 @@ async def pv_filter(client, message):
 async def give_filter(client, message):
     if message.chat.id != SUPPORT_GROUP:
         await global_filters(client, message)
+        await message.react(emoji=random.choice(DS_REACT))
     mf = await manual_filters(client, message)
     if mf == False:
         settings = await get_settings(message.chat.id)
