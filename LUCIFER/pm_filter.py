@@ -34,7 +34,7 @@ logger.setLevel(logging.ERROR)
 
 BUTTONS = {}
 SPELL_CHECK = {}
-DS_REACT = ["🔥", "❤️", "😍", "⚡", "🫠", "🤫", "😎"]
+DS_REACT = ["🔥", "❤️", "😍", "⚡"]
 
 @Client.on_message(filters.private & filters.text & filters.group & filters.incoming & filters.chat & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
 async def pv_filter(client, message):
