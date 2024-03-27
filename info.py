@@ -84,7 +84,7 @@ DELETE_TIME = int(environ.get('DELETE_TIME', 700))
 SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # Url Shortner
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'http://tnshort.net')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.net')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'f12bdd3c5c118fdc7ab6dd26bbf360968923f379')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
