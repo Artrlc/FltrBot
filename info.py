@@ -84,8 +84,8 @@ DELETE_TIME = int(environ.get('DELETE_TIME', 700))
 SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 30))
 
 # Url Shortner
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.net')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '24a8bac45cdff495f34154bd8864a28001ac1a4d')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'easysky.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '2a267ada59da208baa223c64a7aefa620f3fffe4')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
