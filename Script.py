@@ -1,9 +1,6 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʟʟᴏ {}
-
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs,
-ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.
-ɪ ᴡᴏʀᴋ ᴏɴ ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ.</b>"""
+    START_TXT = """<b>Hᴇʟʟᴏ {},
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 
@@ -11,14 +8,16 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/The_Silent_Teams>𒆜The Silent Teams</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/NxVaen>𒆜 𝙰ʀᴛʀʟᴄ</a></b>
 
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/+x-eTArM0uu5mZDJl>Silent Teams Marathi Bot ⚡</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/MiNiFiLX>MiNiFiLX ⚡</a></b>
 
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.69 [Sᴛᴀʙʟᴇ]</b>"""
 
-    SOURCE_TXT ="""
-<b>Bakk BC!!.
+    SOURCE_TXT ="""<b>
+✭ Sᴏᴜʀᴄᴇ - <a href='https://t.me/ClrtrA_bot'>ʀᴇᴘᴏ ʟɪɴᴋ </a>
+✭ ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ 
+✭ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜʀ ᴏᴡɴ ᴀɴʏ ᴛʏᴘᴇ ᴏғ ʙᴏᴛ ᴛʜᴇɴ ᴅᴍ ᴍᴇ " ᴘᴀɪᴅ "</b>
 """
  
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -48,7 +47,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/+FdummGOQm3NlMDBl)</code>
+<code>[Button Text](buttonurl:https://t.me/+KL6-out5MalkNzA1)</code>
 
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
@@ -110,7 +109,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
 
-<b><a href=https://t.me/THE_DS_OFFICIAL>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ ꜱᴀɴᴄʜɪᴛ ♛⛧ </a></b>"""
+<b><a href=https://t.me/NxVaen>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ 𝙰ʀᴛʀʟᴄ ⛧</a></b>"""
 
     ADMIN_STATUS_TXT = """<b>⍟────[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]────⍟</b>
 
@@ -132,7 +131,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>🆓 ғʀᴇᴇ:</b> <code>{}</code>
 
-<b>⍟────[ @The_Silent_Teams]─────⍟</b>"""
+<b>⍟────[ @MiNiFiLX]─────⍟</b>"""
 
     LOG_TEXT_G = """<b>#NewGroup
     
@@ -188,7 +187,7 @@ Rᴇᴀsᴏɴs
 𝟸) Tʏᴘᴇ Nᴀᴍᴇ Wɪᴛʜ Yᴇᴀʀ
 
 𝟹) Mᴏᴠɪᴇ Is Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ Dᴀᴛᴀʙᴀsᴇ 
-Rᴇᴘᴏʀᴛ Hᴇʀᴇ @The_DS_Official_Bot</b>
+Rᴇᴘᴏʀᴛ Hᴇʀᴇ @ClrtrA_Bot</b>
 """
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...
@@ -197,9 +196,9 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @The_DS_Official_Bot</b>
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ꜱᴀɴᴄʜɪᴛ ♛⛧
-• ᴜꜱᴇʀɴᴀᴍᴇ : @THE_DS_OFFICIAL
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='@The_DS_Official_Bot'>Support</a></b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝙰ʀᴛʀʟᴄ ⛧
+• ᴜꜱᴇʀɴᴀᴍᴇ : @NxVaen
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='@Artrlc'>Rᴇᴘᴏʀᴛ</a></b>
 """
 
     KD_IMDB = """
@@ -329,7 +328,7 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @The_DS_Official_Bot</b>
 
 ɪғ ʏᴏᴜ ɴᴏᴛ sᴇᴇ ʏᴏᴜʀ ғɪʟᴇs ᴏɴ ᴛʜɪs ᴘᴀɢᴇ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ɴᴇxᴛ ᴘᴀɢᴇ.
 
-Powered by :- The Silent Teams
+Powered by :- 𝙰ʀᴛʀʟᴄ ⛧
 """
 
     SPLMD = """
@@ -343,7 +342,7 @@ sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ
 
 🚯ᴅᴏɴ'ᴛ ᴜsᴇ ➠ ':(!,./)
 
-Powered by :- The Silent Teams
+Powered by :- Artrlc
 """
     
     REQUEST_TXT = """

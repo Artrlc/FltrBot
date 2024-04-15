@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/Sanchit0102/MARATHI_FLTR.git   
+    repo: https://github.com/Artrlc/FltrBot.git   
     branch: main
     envVars:
       - key: BOT_TOKEN 

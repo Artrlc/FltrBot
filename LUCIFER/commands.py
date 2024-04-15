@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+FdummGOQm3NlMDBl')
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/MiNiFiLX'),
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/MiNiFiLX_Support')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
@@ -47,12 +47,12 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭 ', url='https://t.me/+xJIpAIzmQ7Q3YTZl'),
-                    InlineKeyboardButton('☘️ Sᴜᴘᴘᴏʀᴛ ☘️', url='https://t.me/+x-eTArM0uu5mZDJl')
+                    InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭 ', url='https://t.me/MiNiFiLX_Auto_Group'),
+                    InlineKeyboardButton('☘️ Sᴜᴘᴘᴏʀᴛ ☘️', url='https://t.me/MiNiFiLX_Support')
                   ],[
-                    InlineKeyboardButton('☀️ ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ ☀️', url='https://t.me/The_Silent_Teams'),
+                    InlineKeyboardButton('☀️ ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ ☀️', url='https://t.me/MiNiFiLX'),
                   ],[
-                    InlineKeyboardButton('🎬 ᴍʏ ᴄʜᴀɴɴᴇʟ 🎬', url='https://t.me/+HUjmGwz8OyA3NTll')
+                    InlineKeyboardButton('🎬 ᴍʏ ᴄʜᴀɴɴᴇʟ 🎬', url='https://t.me/MiNiFiLX')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -85,7 +85,7 @@ async def start(client, message):
             except (IndexError, ValueError):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
-            photo="https://telegra.ph/file/5dc8d1de1a57f04b3a2c4.jpg",
+            photo="https://telegra.ph/file/25a2855da84f0b35bc6f6.jpg",
             chat_id=message.from_user.id,
             caption=(script.FORCE_SUB),
             reply_markup=InlineKeyboardMarkup(btn),
@@ -97,7 +97,7 @@ async def start(client, message):
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
                     InlineKeyboardButton('🍁 Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', callback_data="https://t.me/+xJIpAIzmQ7Q3YTZl")
+                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', callback_data="https://t.me/MiNiFiLX_Support")
                   ],[
                     InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('🕵️ Aʙᴏᴜᴛ', callback_data='about'),

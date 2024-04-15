@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', 25833520))
-API_HASH = environ.get('API_HASH', "7d012a6cbfabc2d0436d7a09d8362af7")
-BOT_TOKEN = environ.get('BOT_TOKEN', "5626203495:AAEy6PNxdwi1Nkrn3BO24_phx0c3W6VZEno")
+API_ID = int(environ.get('API_ID', '9232150'))
+API_HASH = environ.get('API_HASH', '898a6315fbaa0fa891a29b50d120a6c7')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6310515424:AAGCrfG-pES4gXb9JROeRPvMWjKl22Z5o2U")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -22,61 +22,61 @@ TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/64200467a37b6a5a60d02.jpg https://graph.org/file/5d35a90e4763dd54519af.jpg https://telegra.ph/file/e68e8c74efe15fd69eb26.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/e68e8c74efe15fd69eb26.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/7197069a413702b3ba98c.jpg")
-NEWGRP = environ.get("NEWGRP", "https://te.legra.ph/file/e8876d6689b687de24fbe.png")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/ae598689ad820eb6fc3a1.jpg https://telegra.ph/file/09e5cdea72f4120e09a47.jpg https://telegra.ph/file/25a2855da84f0b35bc6f6.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/ddc8d37e206ca3c0820b3.png")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8180269540655a03b1742.gif")
+NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/4407fd523f1e0b46df1d0.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1562935405').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001820629990 -1001895678840').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1363352383').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002056113504 -1002089615246').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
-auth_grp = environ.get('AUTH_GROUPS')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001582965202')
+auth_grp = environ.get('AUTH_GROUPS', '-1001506291887')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 FILDLT_CNL = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('FILDLT_CNL', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Error:error@cluster0.nw25n0q.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "marathi")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Artrlc:Artrlc@artrlc.pikz3gw.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "MiNiFiLX-Auto-Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+xJIpAIzmQ7Q3YTZl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+x-eTArM0uu5mZDJl')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+FdummGOQm3NlMDBl')
-MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MiNiFiLX_Auto_Group')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MiNiFiLX')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+KL6-out5MalkNzA1')
+MSG_ALRT = environ.get('MSG_ALRT', '<b>Share and Support Us ❤️</b>')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP',-1001953320653))
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Robo_5_0/40')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001506291887'))
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Artrlc09/35')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001752715418))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001975010054'))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', '-1001975010054'))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "[{file_name}](https://t.me/The_Silent_Teams)\n\n<b>Join Our Offical Marathi Channel 👉🏻 [Click Here](https://t.me/+x-eTArM0uu5mZDJl) ❤️")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "[{file_name}](https://t.me/MiNiFiLX)\n\n<b>Join Our Offical Channel & Group @MiNiFiLX_Support ❤️</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>{mention}'s Qᴜᴇʀʏ ☞ <code>{query}</code>\n\n<b>🏷 Tɪᴛʟᴇ</b> : <a href={url}>{title}</a>\n\n🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10\n💀 Rᴇʟᴇᴀsᴇ :  <b>{release_date}</b> <b>{countries}</b>\n\n🎭 Gᴇɴʀᴇs : <b>#{genres}</b></b>\n\n<b>🔅 ᴍᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @THE_DS_OFFICIAL</b>")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>{mention}'s Qᴜᴇʀʏ ☞ <code>{query}</code>\n\n<b>🏷 Tɪᴛʟᴇ</b> : <a href={url}>{title}</a>\n\n🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10\n💀 Rᴇʟᴇᴀsᴇ :  <b>{release_date}</b> <b>{countries}</b>\n\n🎭 Gᴇɴʀᴇs : <b>#{genres}</b></b>\n\n<b>🔅 ᴍᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @NxVaen</b>")
 KD_IMDB_TEMPLATE = environ.get("KD_IMDB_TEMPLATE", "<b><b>🏷 Tɪᴛʟᴇ</b> : <a href={url}>{title}</a>\n\n🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10\n <b>{countries}</b>\n\n🎭 Gᴇɴʀᴇs : <b>{genres}</b></b>\n\n<b>")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002101172119')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), False)
 
 # Auto Delete , Filter & Auto Filter
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
+AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
@@ -85,7 +85,7 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # Url Shortner
 URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.net')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'f12bdd3c5c118fdc7ab6dd26bbf360968923f379')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '24a8bac45cdff495f34154bd8864a28001ac1a4d')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
