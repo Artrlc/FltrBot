@@ -41,7 +41,7 @@ FILDLT_CNL = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Artrlc:Artrlc@artrlc.pikz3gw.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "MiNiFiLX-Auto-Bot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files1')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files2')
 
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MiNiFiLX_Auto_Group')
