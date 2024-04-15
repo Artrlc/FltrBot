@@ -23,7 +23,7 @@ yt-dlp
 youtube-dl
 youtube_search
 requests
-aiohttp==3.8.5
+aiohttp==3.9.2
 googletrans==3.1.0a0
 telegraph
 PyPDF2
