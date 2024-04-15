@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '9232150'))
 API_HASH = environ.get('API_HASH', '898a6315fbaa0fa891a29b50d120a6c7')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6310515424:AAGCrfG-pES4gXb9JROeRPvMWjKl22Z5o2U")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -29,11 +29,11 @@ NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/4407fd523f1e0b46df1d0.jp
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1363352383').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002056113504 -1002089615246').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '-1001582965202')
-auth_grp = environ.get('AUTH_GROUPS', '-1001506291887')
+auth_grp = environ.get('AUTH_GROUPS', '')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 FILDLT_CNL = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('FILDLT_CNL', '0').split()]
@@ -41,7 +41,7 @@ FILDLT_CNL = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Artrlc:Artrlc@artrlc.pikz3gw.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "MiNiFiLX-Auto-Bot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files1')
 
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MiNiFiLX_Auto_Group')
@@ -76,16 +76,16 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), Fals
 
 # Auto Delete , Filter & Auto Filter
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
+AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
 MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
 DELETE_TIME = int(environ.get('DELETE_TIME', 700))
-SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
+SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 30))
 
 # Url Shortner
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnshort.net')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '24a8bac45cdff495f34154bd8864a28001ac1a4d')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'easysky.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '2a267ada59da208baa223c64a7aefa620f3fffe4')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
