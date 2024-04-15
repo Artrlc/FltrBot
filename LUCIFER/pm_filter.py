@@ -112,16 +112,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/+x-eTArM0uu5mZDJl'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+xJIpAIzmQ7Q3YTZl')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/MiNiFiLX'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/MiNiFiLX_Auto_Group')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/+x-eTArM0uu5mZDJl'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+xJIpAIzmQ7Q3YTZl')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/MiNiFiLX'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/MiNiFiLX_Auto_Group')
                 ]
             )
                 
@@ -132,16 +132,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/+x-eTArM0uu5mZDJl'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+xJIpAIzmQ7Q3YTZl')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/MiNiFiLX'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/MiNiFiLX_Auto_Group')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/+x-eTArM0uu5mZDJl'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+xJIpAIzmQ7Q3YTZl')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/MiNiFiLX'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/MiNiFiLX_Auto_Group')
                 ]
             )
 
@@ -166,7 +166,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
+        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🤔", url=HOW_DWLD_LINK)
     ])
     try:
         await query.edit_message_reply_markup(
@@ -535,8 +535,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💻 Developer', url='https://t.me/THE_DS_OFFICIAL'),
-                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+xJIpAIzmQ7Q3YTZl')
+                    InlineKeyboardButton('💻 Developer', url='https://t.me/NxVaen'),
+                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/MiNiFiLX_Support')
                 ],[
                     InlineKeyboardButton('❗Help', callback_data='help'),
                     InlineKeyboardButton('🕵️ Aʙᴏᴜᴛ', callback_data='about'),
@@ -742,10 +742,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "kd_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('Our Gʀᴏᴜᴘ', url='https://t.me/Marathi_Auto_Group')
+                      InlineKeyboardButton('Our Gʀᴏᴜᴘ', url='https://t.me/MiNiFiLX_Auto_Group')
                      ], [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+xJIpAIzmQ7Q3YTZl'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+x-eTArM0uu5mZDJl')
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/MiNiFiLX_Support'),
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/MiNiFiLX')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
@@ -1102,16 +1102,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/+x-eTArM0uu5mZDJl'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+xJIpAIzmQ7Q3YTZl')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/MiNiFiLX'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/MiNiFiLX_Auto_Group')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/+x-eTArM0uu5mZDJl'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+xJIpAIzmQ7Q3YTZl')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/MiNiFiLX'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/MiNiFiLX_Auto_Group')
                 ]
             )
                 
@@ -1122,21 +1122,21 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/+x-eTArM0uu5mZDJl'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+xJIpAIzmQ7Q3YTZl')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/MiNiFiLX'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/MiNiFiLX_Auto_Group')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/+x-eTArM0uu5mZDJl'),
-                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/+xJIpAIzmQ7Q3YTZl')
+                    InlineKeyboardButton('📢 Updates Channel', url='https://t.me/MiNiFiLX'),
+                    InlineKeyboardButton('🎁 Request Group 🎁', url='https://t.me/MiNiFiLX_Auto_Group')
                 ]
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("ᕼOᗯ TO ᗪOᗯᑎᒪOᗩᗪ 🤔", url=HOW_DWLD_LINK)
+        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🤔", url=HOW_DWLD_LINK)
     ])
 
     if offset != "":
