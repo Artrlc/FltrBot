@@ -1256,14 +1256,14 @@ async def auto_filter(client, msg, spoll=False):
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(DELETE_TIME)
-                await fuk.delet()
+                await fuk.delete()
         except KeyError:
             grpid = await active_connection(str(message.from_user.id))
             await save_group_settings(grpid, 'auto_delete', True)
             settings = await get_settings(message.chat.id)
             if settings['auto_delete']:
                 await asyncio.sleep(DELETE_TIME)
-                await fuk.delet()
+                await fuk.delete()
     if spoll:
         await msg.message.delete()
 
