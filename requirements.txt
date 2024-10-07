@@ -10,7 +10,6 @@ bs4
 git+https://github.com/cinemagoer/cinemagoer
 psutil
 pytz
-aiohttp
 search_engine_parser
 wget
 aiofiles
@@ -23,7 +22,6 @@ yt-dlp
 youtube-dl
 youtube_search
 requests
-aiohttp==3.8.5
 googletrans==3.1.0a0
 telegraph
 PyPDF2
@@ -33,10 +31,9 @@ countryinfo
 datetime
 pytz
 dnspython==2.3.0
-aiohttp
 python-math
 Pillow
 speedtest-cli
 Flask==2.2.2
 gunicorn==20.1.0
-aiohttp==3.8.1
+aiohttp==3.10.9
