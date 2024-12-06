@@ -35,5 +35,5 @@ python-math
 Pillow
 speedtest-cli
 Flask==2.2.2
-gunicorn==20.1.0
+gunicorn==22.0.0
 aiohttp==3.10.9
